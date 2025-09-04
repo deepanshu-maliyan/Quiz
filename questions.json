@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which planet in our solar system is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Mars"
+  },
+  {
+    "id": 2,
+    "question": "What is the chemical symbol for gold?",
+    "options": [
+      "Go",
+      "Gd",
+      "Ag",
+      "Au"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "id": 3,
+    "question": "Which famous scientist developed the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Niels Bohr",
+      "Albert Einstein",
+      "Galileo Galilei"
+    ],
+    "correctAnswer": "Albert Einstein"
+  },
+  {
+    "id": 4,
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctAnswer": "Pacific Ocean"
+  },
+  {
+    "id": 5,
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Claude Monet"
+    ],
+    "correctAnswer": "Leonardo da Vinci"
+  },
+  {
+    "id": 6,
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": [
+      "Osmium",
+      "Oxygen",
+      "Oganesson",
+      "Osmium"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "id": 7,
+    "question": "What is the capital city of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctAnswer": "Canberra"
+  },
+  {
+    "id": 8,
+    "question": "Which is the smallest prime number?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "id": 9,
+    "question": "What is the main component of the Sun?",
+    "options": [
+      "Liquid lava",
+      "Molten iron",
+      "Hydrogen gas",
+      "Solid rock"
+    ],
+    "correctAnswer": "Hydrogen gas"
+  },
+  {
+    "id": 10,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "Mark Twain"
+    ],
+    "correctAnswer": "William Shakespeare"
+  }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz App</h1>
+        </header>
+        
+        <main>
+            <!-- Start Screen -->
+            <div id="start-screen" class="quiz-state active">
+                <h2>Welcome to the Quiz!</h2>
+                <p>Test your knowledge with these trivia questions.</p>
+                <button id="start-btn" class="btn primary-btn">Start Quiz</button>
+            </div>
+            
+            <!-- Question Screen -->
+            <div id="question-screen" class="quiz-state">
+                <!-- Progress and Timer Bar -->
+                <div class="quiz-header">
+                    <!-- Progress Indicator -->
+                    <div class="progress-container">
+                        <div class="progress-text">
+                            <span class="question-count">Question <span id="current-question">1</span> of <span id="total-questions">10</span></span>
+                            <span class="progress-percent" id="progress-percent">10%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Timer -->
+                    <div class="timer" id="timer">
+                        <div class="time-remaining">Time: <span id="time-value">30</span>s</div>
+                        <div id="timer-bar"></div>
+                    </div>
+                </div>
+                
+                <!-- Question and Options -->
+                <div class="question-container">
+                    <h2 id="question-text"></h2>
+                    <div class="options-container" id="options-container"></div>
+                </div>
+                
+                <!-- Navigation Buttons -->
+                <div class="navigation">
+                    <button id="prev-btn" class="btn secondary-btn">Previous</button>
+                    <button id="next-btn" class="btn primary-btn">Next</button>
+                    <button id="submit-btn" class="btn primary-btn">Submit Quiz</button>
+                </div>
+            </div>
+            
+            <!-- Quiz State: Results Screen -->
+            <div id="results-screen" class="quiz-state">
+                <h2>Quiz Results</h2>
+                <div class="score-container">
+                    <div class="score-text">Your Score: <span id="score-value">0</span> / <span id="max-score">10</span></div>
+                    <div class="score-percentage">(<span id="score-percentage">0</span>%)</div>
+                </div>
+                
+                <div id="results-container">
+                    <!-- Results will be inserted here by JavaScript -->
+                </div>
+                
+                <button id="restart-btn" class="btn primary-btn">Restart Quiz</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Created with ❤️ by Deepanshu Maliyan</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
