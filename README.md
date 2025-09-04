@@ -24,11 +24,22 @@ Created by Deepanshu Maliyan.
 
 ## How to Run
 
+### Online (GitHub Pages)
+Visit the live demo: [https://deepanshu-maliyan.github.io/Quiz/](https://deepanshu-maliyan.github.io/Quiz/)
+
+### Local Development
 1. Clone or download this repository
 2. Open `index.html` in a web browser
 3. Click "Start Quiz" to begin
 
 The app runs entirely in the browser and doesn't require any server-side processing. The questions are loaded from a local JSON file.
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow:
+- Triggers on pushes to the `main` branch
+- Builds and deploys the static site to GitHub Pages
+- Makes the quiz accessible at the GitHub Pages URL
 
 ## Project Structure
 
